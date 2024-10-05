@@ -1,16 +1,17 @@
 document.addEventListener("DOMContentLoaded", function() {
-    console.log("Welcome to InfiniteTrack! Explore our content and subscribe.");
-    
-    const newsletterForm = document.querySelector('.newsletter-form');
-    
-    newsletterForm.addEventListener('submit', function(event) {
-        event.preventDefault();
-        const email = document.querySelector('input[type="email"]').value;
-        if(email) {
-            alert(`Thank you for subscribing with ${email}!`);
-            document.querySelector('input[type="email"]').value = '';
-        } else {
-            alert('Please enter a valid email address.');
-        }
+    const form = document.getElementById("contactForm");
+
+    form.addEventListener("submit", function(event) {
+        event.preventDefault(); // Prevent form from submitting normally
+
+        // Get the name and email values
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+
+        // Create the mailto link
+        const mailtoLink = `mailto:InfiniteTrack987@gmail.com?subject=User%20Details&body=Name:%20${encodeURIComponent(name)}%0AEmail:%20${encodeURIComponent(email)}`;
+
+        // Open the mailto link
+        window.location.href = mailtoLink;
     });
 });
