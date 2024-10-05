@@ -7,25 +7,25 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container">
+            <nav>
+                <ul class="navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
             <h1>Welcome to InfiniteTrack</h1>
             <p>Your ultimate destination for automotive insights and more!</p>
             <a href="https://www.youtube.com/@InfiniteTrack987" class="btn">Subscribe Now</a>
         </div>
     </header>
-
-    <nav class="navbar">
-        <ul>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
+    
     <main class="container">
         <section id="services" class="content">
             <h2>What We Offer</h2>
@@ -43,24 +43,23 @@
             </div>
         </section>
 
-        <section id="about" class="about-section">
-            <h2>About Us</h2>
-            <p>At InfiniteTrack, we are passionate about exploring the automotive world and beyond. Join us on our journey!</p>
-        </section>
-
-        <section id="contact" class="contact-section">
-            <h2>Contact Us</h2>
-            <form id="contact-form">
-                <input type="text" placeholder="Your Name" required />
-                <input type="email" placeholder="Your Email" required />
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
+        <section id="newsletter">
+            <h2>Stay Updated</h2>
+            <p>Subscribe to our newsletter for the latest updates and insights.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn">Subscribe</button>
             </form>
         </section>
     </main>
-
+    
     <footer>
         <p>© 2024 InfiniteTrack. All rights reserved.</p>
+        <ul class="socials">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
     </footer>
 
     <script src="script.js"></script>
