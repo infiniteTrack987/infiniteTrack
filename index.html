@@ -17,9 +17,17 @@
             <a href="https://www.youtube.com/@InfiniteTrack987" class="btn">Subscribe Now</a>
         </div>
     </header>
-    
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
     <main class="container">
-        <section class="content">
+        <section id="services" class="content">
             <h2>What We Offer</h2>
             <div class="card">
                 <h3>Automotive Insights</h3>
@@ -34,8 +42,23 @@
                 <p>Engaging tutorials and fresh perspectives to inspire your next adventure.</p>
             </div>
         </section>
+
+        <section id="about" class="about-section">
+            <h2>About Us</h2>
+            <p>At InfiniteTrack, we are passionate about exploring the automotive world and beyond. Join us on our journey!</p>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
     </main>
-    
+
     <footer>
         <p>© 2024 InfiniteTrack. All rights reserved.</p>
     </footer>
