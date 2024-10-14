@@ -1,3 +1,19 @@
+// Function to check if the user is on an Android device
+function isAndroid() {
+    return /Android/i.test(navigator.userAgent);
+}
+
+// Function to restrict access to only Android users
+function checkForAndroid() {
+    if (!isAndroid()) {
+        alert('This website is only accessible on Android devices.');
+        document.body.innerHTML = '<h1 style="color: red; text-align: center;">Access Restricted to Android Devices</h1>';
+    }
+}
+
+// Run the Android check when the page loads
+window.onload = checkForAndroid;
+
 function openSeason(season) {
     // Create a new page displaying episode buttons for each season
     let body = document.body;
