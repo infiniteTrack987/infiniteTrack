@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     text-align: center;
 }
 
@@ -69,6 +69,8 @@ button:focus {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    overflow-y: auto;
+    max-height: 80vh; /* Set max height for scrolling */
 }
 
 /* Back Button */
