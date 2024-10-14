@@ -9,12 +9,12 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    text-align: center;
 }
 
 .container {
     text-align: center;
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
 }
 
 h1 {
@@ -25,12 +25,13 @@ h1 {
     color: transparent;
 }
 
-.seasons, .episodes {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+/* Align buttons horizontally */
+.seasons {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 20px 0;
+    gap: 10px;
 }
 
 /* Button Styles */
@@ -45,6 +46,7 @@ button {
     cursor: pointer;
     transition: background 0.3s ease;
     box-shadow: 0px 4px 15px rgba(255, 0, 255, 0.5);
+    width: 180px;
 }
 
 button:hover {
