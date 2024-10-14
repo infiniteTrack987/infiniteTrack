@@ -32,14 +32,17 @@ function generateEpisodeButtons(season) {
     let buttons = '';
     for (let i = 1; i <= 52; i++) {
         let episodeNum = i < 10 ? '0' + i : i;
-        // Create all episode buttons from EP01 to EP52
         buttons += `<button class="episode-button" onclick="openEpisode('${season}', '${episodeNum}')">${season} EP${episodeNum}</button>`;
     }
     return buttons;
 }
 
 function openEpisode(season, episode) {
-    // Open Google search URL for the selected season and episode
-    let query = `Doraemon ${season} Episode ${episode}`;
-    window.location.href = `https://www.google.com/search?q=${query}`;
+    // Only open Google search if it's S01 EP01
+    if (season === 'S01' && episode === '01') {
+        let query = `Doraemon ${season} Episode ${episode}`;
+        window.location.href = `https://www.google.com/search?q=${query}`;
+    } else {
+        alert('This episode does not open a link.');
+    }
 }
