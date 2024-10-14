@@ -63,6 +63,14 @@ button:focus {
     outline: none;
 }
 
+/* Episode Buttons */
+.episodes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
 /* Back Button */
 .back-button {
     margin-top: 20px;
