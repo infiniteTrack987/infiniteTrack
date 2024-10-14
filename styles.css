@@ -53,32 +53,28 @@ button:hover {
     background: linear-gradient(135deg, #9f00ff, #e000ff);
 }
 
-button.disabled {
-    background: grey;
-    cursor: not-allowed;
-    box-shadow: none;
-}
-
-button:focus {
-    outline: none;
+.back-button {
+    margin-top: 20px;
 }
 
 /* Episode Buttons */
 .episodes {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
-    overflow-y: scroll;
+    flex-wrap: wrap; /* Allow wrapping of buttons */
+    justify-content: center; /* Center align */
+    gap: 10px; /* Space between buttons */
+    margin-top: 10px; /* Margin above episodes */
+    
+    /* Set a fixed height and allow scrolling */
+    max-height: 400px; /* Adjust height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
 }
 
-/* Back Button */
+/* Back Button Styles */
 .back-button {
-    margin-top: 20px;
-    background: linear-gradient(135deg, #f00, #ff3300);
-}
-
-.back-button:hover {
-    background: linear-gradient(135deg, #ff3300, #ff6600);
+   background-color: #f00; 
+   color:white; 
+   padding:10px; 
+   border:none; 
+   border-radius:5px; 
 }
