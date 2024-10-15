@@ -266,4 +266,39 @@ function openEpisode(season, episode) {
          window.location.href = `https://tnseries.com/t6hckUrT`;
      } else {
     }
+    if (season === 'S01' && episode === '46') {
+         let query = `Doraemon ${season} Episode ${episode}`;
+         window.location.href = `https://tnseries.com/ZxS662`;
+     } else {
+    }
+    if (season === 'S01' && episode === '47') {
+         let query = `Doraemon ${season} Episode ${episode}`;
+         window.location.href = `https://tnseries.com/8xvJdM`;
+     } else {
+    }
+    if (season === 'S01' && episode === '48') {
+         let query = `Doraemon ${season} Episode ${episode}`;
+         window.location.href = `https://tnseries.com/rVREqhY`;
+     } else {
+    }
+    if (season === 'S01' && episode === '49') {
+         let query = `Doraemon ${season} Episode ${episode}`;
+         window.location.href = `https://tnseries.com/pr2tU`;
+     } else {
+    }
+    if (season === 'S01' && episode === '50') {
+         let query = `Doraemon ${season} Episode ${episode}`;
+         window.location.href = `https://tnseries.com/AAG7`;
+     } else {
+    }
+    if (season === 'S01' && episode === '51') {
+         let query = `Doraemon ${season} Episode ${episode}`;
+         window.location.href = `https://tnseries.com/YM1dn`;
+     } else {
+    }
+    if (season === 'S01' && episode === '52') {
+         let query = `Doraemon ${season} Episode ${episode}`;
+         window.location.href = `https://tnseries.com/WGUQ9bLJ`;
+     } else {
+    }
 }
