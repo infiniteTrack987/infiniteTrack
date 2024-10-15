@@ -201,4 +201,9 @@ function openEpisode(season, episode) {
          window.location.href = `https://1a-1791.com/video/s8/2/7/v/y/5/7vy5t.caa.mp4?u=0&amp;b=0`;
      } else {
     }
+    if (season === 'S01' && episode === '33') {
+         let query = `Doraemon ${season} Episode ${episode}`;
+         window.location.href = `https://1a-1791.com/video/s8/2/m/x/y/5/mxy5t.caa.mp4?u=0&amp;b=0`;
+     } else {
+    }
 }
