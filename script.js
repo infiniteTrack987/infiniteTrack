@@ -43,7 +43,7 @@ function openEpisode(season, episode) {
      // Only open Google search if it's S01 EP01
      if (season === 'S01' && episode === '01') {
          let query = `Doraemon ${season} Episode ${episode}`;
-         window.location.href = `https://1a-1791.com/video/s8/2/r/e/P/4/reP4t.caa.mp4?u=0&amp;b=0`;
+         window.location.href = `https://tnseries.com/ZHq5X1P`;
      } else {
      }
     if (season === 'S01' && episode === '02') {
