@@ -241,4 +241,24 @@ function openEpisode(season, episode) {
          window.location.href = `https://tnseries.com/TfBJZq`;
      } else {
     }
+    if (season === 'S01' && episode === '41') {
+         let query = `Doraemon ${season} Episode ${episode}`;
+         window.location.href = `https://tnseries.com/b9GVA`;
+     } else {
+    }
+    if (season === 'S01' && episode === '42') {
+         let query = `Doraemon ${season} Episode ${episode}`;
+         window.location.href = `https://tnseries.com/CE1NI`;
+     } else {
+    }
+    if (season === 'S01' && episode === '43') {
+         let query = `Doraemon ${season} Episode ${episode}`;
+         window.location.href = `https://tnseries.com/MKo7npcO`;
+     } else {
+    }
+    if (season === 'S01' && episode === '44') {
+         let query = `Doraemon ${season} Episode ${episode}`;
+         window.location.href = `https://tnseries.com/HFN4Bl`;
+     } else {
+    }
 }
