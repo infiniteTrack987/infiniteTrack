@@ -163,72 +163,72 @@ function openEpisode(season, episode) {
     }
     if (season === 'S01' && episode === '25') {
          let query = `Doraemon ${season} Episode ${episode}`;
-         window.location.href = `https://1a-1791.com/video/s8/2/D/8/p/5/D8p5t.caa.mp4?u=0&amp;b=0`;
+         window.location.href = `https://tnseries.com/KkWkZJ`;
      } else {
     }
     if (season === 'S01' && episode === '26') {
          let query = `Doraemon ${season} Episode ${episode}`;
-         window.location.href = `https://1a-1791.com/video/s8/2/f/-/p/5/f-p5t.caa.mp4?u=0&amp;b=0`;
+         window.location.href = `https://tnseries.com/yIt23u`;
      } else {
     }
     if (season === 'S01' && episode === '27') {
          let query = `Doraemon ${season} Episode ${episode}`;
-         window.location.href = `https://1a-1791.com/video/s8/2/L/_/p/5/L_p5t.caa.mp4?u=0&amp;b=0`;
+         window.location.href = `https://tnseries.com/n2BVtWqu`;
      } else {
     }
     if (season === 'S01' && episode === '28') {
          let query = `Doraemon ${season} Episode ${episode}`;
-         window.location.href = `https://1a-1791.com/video/s8/2/v/d/q/5/vdq5t.caa.mp4?u=0&amp;b=0`;
+         window.location.href = `https://tnseries.com/2qpRbtc`;
      } else {
     }
     if (season === 'S01' && episode === '29') {
          let query = `Doraemon ${season} Episode ${episode}`;
-         window.location.href = `https://1a-1791.com/video/s8/2/8/f/q/5/8fq5t.caa.mp4?u=0&amp;b=0`;
+         window.location.href = `https://tnseries.com/fxbOZF`;
      } else {
     }
     if (season === 'S01' && episode === '30') {
          let query = `Doraemon ${season} Episode ${episode}`;
-         window.location.href = `https://1a-1791.com/video/s8/2/r/h/q/5/rhq5t.caa.mp4?u=0&amp;b=0`;
+         window.location.href = `https://tnseries.com/we0d9`;
      } else {
     }
     if (season === 'S01' && episode === '31') {
          let query = `Doraemon ${season} Episode ${episode}`;
-         window.location.href = `https://1a-1791.com/video/s8/2/T/u/y/5/Tuy5t.caa.mp4?u=0&amp;b=0`;
+         window.location.href = `https://tnseries.com/cvXXsG`;
      } else {
     }
     if (season === 'S01' && episode === '32') {
          let query = `Doraemon ${season} Episode ${episode}`;
-         window.location.href = `https://1a-1791.com/video/s8/2/7/v/y/5/7vy5t.caa.mp4?u=0&amp;b=0`;
+         window.location.href = `https://tnseries.com/boZ8R9Qc`;
      } else {
     }
     if (season === 'S01' && episode === '33') {
          let query = `Doraemon ${season} Episode ${episode}`;
-         window.location.href = `https://1a-1791.com/video/s8/2/m/x/y/5/mxy5t.caa.mp4?u=0&amp;b=0`;
+         window.location.href = `https://tnseries.com/uHtFhWE`;
      } else {
     }
     if (season === 'S01' && episode === '34') {
          let query = `Doraemon ${season} Episode ${episode}`;
-         window.location.href = `https://1a-1791.com/video/s8/2/j/G/y/5/jGy5t.caa.mp4?u=0&amp;b=0`;
+         window.location.href = `https://tnseries.com/IuyexNk`;
      } else {
     }
     if (season === 'S01' && episode === '35') {
          let query = `Doraemon ${season} Episode ${episode}`;
-         window.location.href = `https://1a-1791.com/video/s8/2/6/G/y/5/6Gy5t.caa.mp4?u=0&amp;b=0`;
+         window.location.href = `https://tnseries.com/hzq7`;
      } else {
     }
     if (season === 'S01' && episode === '36') {
          let query = `Doraemon ${season} Episode ${episode}`;
-         window.location.href = `https://1a-1791.com/video/s8/2/T/L/y/5/TLy5t.caa.mp4?u=0&amp;b=0`;
+         window.location.href = `https://tnseries.com/xUh54S`;
      } else {
     }
     if (season === 'S01' && episode === '37') {
          let query = `Doraemon ${season} Episode ${episode}`;
-         window.location.href = `https://1a-1791.com/video/s8/2/I/M/y/5/IMy5t.caa.mp4?u=0&amp;b=0`;
+         window.location.href = `https://tnseries.com/rlmRdd`;
      } else {
     }
     if (season === 'S01' && episode === '38') {
          let query = `Doraemon ${season} Episode ${episode}`;
-         window.location.href = `https://1a-1791.com/video/s8/2/j/N/y/5/jNy5t.caa.mp4?u=0&amp;b=0`;
+         window.location.href = `https://tnseries.com/4lOkwX6Y`;
      } else {
     }
 }
